@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.headline {
+    border: red solid 1px;
+    background-image: url(assets/desktop/Header\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #172b4d;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.37px; 
+}
+
+.intro-paragraph {
+    color: #344563;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .social-list-item {
+    list-style-type: none;
+  }
+
+  .wrapper {
+    border: green dotted 2px;
+  }
