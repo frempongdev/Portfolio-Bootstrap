@@ -35,14 +35,14 @@ h1 {
 .card{
   width: 50rem;
     }
-    #swap{
+.card #swap{
       display: flex;
     }
-  #swap .card-img{
-   order:1;
+  #img{
+   order:0;
   }
-  #swap .card-body{
-    order:0;
+  #body{
+    order:1;
   }
   img{
     width: 100%;
