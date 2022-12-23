@@ -3,10 +3,10 @@ body {
 }
 
 .headline {
-  border: red solid 1px;
-  background-image: url(assets/desktop/Header\ bg.png);
+   background-image: url(assets/desktop/Header\ bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 90vh;
 }
 
 h1 {
@@ -26,10 +26,6 @@ h1 {
 
 .social-list-item {
   list-style-type: none;
-}
-
-.wrapper {
-  border: green dotted 2px;
 }
 
 .card{
