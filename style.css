@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background: #E5E5E5;
 }
 
 .headline {
@@ -111,7 +112,22 @@ ul {
   letter-spacing: 0.03em;
   color: #6070ff;
 }
+.chevron{
+width:5px;
+display: none;
+}
+#badgez{
+  width: 10%;
+  height: 10%;
+  
+}
 
+#lang-co{
+  display: flex;
+  flex-direction: row;
+  row-gap: 1%;
+
+}
 #ruby {
   width: 6rem;
   height: 1.5rem;
@@ -170,4 +186,20 @@ form {
   height: 48px;
   color: #6070ff;
   border: 1px solid #6070ff;
+}
+#lang-badge{
+  width:20rem;
+}
+
+#ht{
+  width: 90%;
+  height: 90%;
+}
+#cs{
+  width: 90%;
+  height: 90%;
+}
+#jv{
+  width: 70%;
+  height: 74%;
 }
