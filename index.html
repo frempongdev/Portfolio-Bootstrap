@@ -66,9 +66,9 @@
         </div>
       </section>
 
-      <section class="Portfolio-cards  ">
+      <section class="Portfolio-cards py-5 ">
         <div class="container ">
-                  <div class="card mx-auto mb-5 mt-5" >
+                  <div class="card mx-auto mb-5" >
                     <div class="row">
                       <div class="col-6">
                     <img class="img-fluid mx-2 my-2" src="vectors/snap20.png" alt="Card image cap">
@@ -110,11 +110,11 @@
             
             
                 <div class="card mx-auto mb-5"  >
-                  <div class="row" id="swap" >
-                    <div class="col-6" id="img">
+                  <div class="row" >
+                    <div class="col-6 order-2">
                   <img class="card-img mx-2 my-2" src="vectors/snap4.png" alt="Card image cap">
                 </div>
-                <div class="col-6 " id="body">
+                <div class="col-6 order-1 " id="body">
                   <div class="card-body">
                     <h5 class="card-title">Multi-Post Stories</h5>
                     <ul class="card-list ">
@@ -193,10 +193,10 @@
 
            <div class="card mx-auto mb-5"  >
                     <div class="row">
-                      <div class="col-6">
+                      <div class="col-6 order-2">
                     <img class="img-fluid mx-2 my-2" src="vectors/snap2.png" alt="Card image cap">
                   </div>
-                  <div class="col-6">
+                  <div class="col-6 order-1">
                     <div class="card-body">
                       <h5 class="card-title">Uber Navigation</h5>
                       <ul class="card-list ">
@@ -231,6 +231,39 @@
                   </div>
                 </div>
           </div>
+            </section>
+
+            <section class="contact"> 
+             <div class="contact-container">
+              <div class="row ">
+                <div class="col-2 mx-auto  mt-5">
+                  <h2>Contact me</h2>
+                </div>
+                </div>
+                  <div class="row">
+                  <div class="col-5 mx-auto mt-2">
+                  <p class="p1">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                </div>
+              </div>
+               <form class="col-8 mx-auto"  action="https://formspree.io/f/mdojqvjo"
+               method="POST">
+              <div class="col-6 mb-2 mx-auto">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="name" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Alexandra Loremipsum">
+              </div>
+              <div class="col-6 mb-2 mx-auto">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email"  name="email" class="form-control" id="exampleFormControlInput1" placeholder="alexandra@gmail.com">
+              </div>
+              <div class=" col-6 mb-2 mx-auto">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message here"></textarea>
+              </div>
+              <div class="col-3 mb-5 mt-5 mx-auto">
+             <button type="submit" id="form-button" >Get in touch</button> 
+            </div>
+          </form>
+            </div>
             </section>
             
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
