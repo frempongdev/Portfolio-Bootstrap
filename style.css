@@ -1,18 +1,25 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
   font-family: 'Poppins', sans-serif;
-  background-color: #e5e5e5;
+}
+.body {
+  width: 100%;
+  height: 100%;
+  background: #dee3dd;
 }
 
-.Portfolio-cards {
-  background-color: #e5e5e5;
+.wrapper{
+  margin-top: 10%;
 }
 
 .headline {
   background-image: url(assets/desktop/Header\ bg.png);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 90vh;
-}
+ width: 100%;
+ background-color: #fff;
+  }
 
 h1 {
   color: #172b4d;
@@ -35,6 +42,7 @@ h1 {
 
 .card {
   width: 50rem;
+
 }
 
 img {
@@ -60,7 +68,6 @@ ul {
 }
 
 .btn {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -84,7 +91,6 @@ ul {
 #html {
   width: 3rem;
   height: 1.5rem;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -96,7 +102,6 @@ ul {
 #css {
   width: 3rem;
   height: 1.5rem;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -108,7 +113,6 @@ ul {
 #js {
   width: 4.8rem;
   height: 1.5rem;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -131,7 +135,6 @@ ul {
 #ruby {
   width: 6rem;
   height: 1.5rem;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -141,6 +144,7 @@ ul {
 }
 
 .contact {
+  width: 100%;
   background-color: #6070ff;
   color: white;
   height: 45rem;
@@ -148,15 +152,14 @@ ul {
 }
 
 .p1 {
-  width: 30rem;
-  height: 8rem;
-  font-family: 'Poppins', sans-serif;
+  width: 100%;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+  margin: auto;
 }
 
 textarea {
@@ -164,12 +167,10 @@ textarea {
 }
 
 form {
-  margin-top: -1.5rem;
-  width: 100%;
+ margin: auto;
 }
 
 #form-button {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -205,4 +206,8 @@ form {
 #jv {
   width: 77%;
   height: 77%;
+}
+.about-myself{
+  background-color: #fff;
+  padding-bottom: 10%;
 }
